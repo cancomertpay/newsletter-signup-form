@@ -198,7 +198,6 @@ body {
 
   #success {
     background-color: hsl(0, 0%, 100%);
-    margin-top: 5rem;
     border-radius: 40px;
     padding: 3rem;
   }
