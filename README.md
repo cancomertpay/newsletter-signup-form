@@ -53,9 +53,9 @@ Users should be able to:
 
 ### Which Techniques I Used
 
-In this project, I preferred to use the React library. I managed input and error logic through the useState hook. For error handling, I opted for a method that alerts users by tracking their keystrokes, rather than triggering an error message upon submission. Furthermore, I used the Context API to handle the logic for displaying success messages. The main goal was to provide a user-friendly and optimized solution. All styles were created using vanilla CSS and adapted to be responsive for mobile, tablet, and desktop formats. (Assets, illustrations, and design belong to the frontendmentor.io website.)
+In this project, I preferred to use the React library. I managed input and error handling logic through the useState hook. For error handling, I opted for a method that alerts users by tracking their keystrokes, rather than triggering an error message upon submission. Furthermore, I used the Context API to handle the logic for displaying success messages. The main goal was to provide a user-friendly and optimized solution. All styles were created using vanilla CSS and adapted to be responsive for mobile, tablet, and desktop formats. (Assets, illustrations, and design belong to the frontendmentor.io website.)
 
-### The error logic was set up as follows:
+### The error handling logic was set up as follows:
 ```js
   const successContext = useContext(SuccessContext)
 
