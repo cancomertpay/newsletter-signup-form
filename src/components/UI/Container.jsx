@@ -1,5 +1,4 @@
 import React from "react";
-import NewsletterImg from "../NewsletterImg";
 import SignupIllusturation from "./SignupIllusturation";
 
 function Container({ children }) {
